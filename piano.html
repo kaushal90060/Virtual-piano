@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Virtual Piano</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <audio src="/music/a.wav" id="a_aud" preload="auto"></audio>
+    <audio src="/music/b.wav" id="b_aud" preload="auto"></audio>
+    <audio src="/music/Bb.wav" id="Bb_aud" preload="auto"></audio>
+    <audio src="/music/c.wav" id="c_aud" preload="auto"></audio>
+    <audio src="/music/Cb.wav" id="Cb_aud" preload="auto"></audio>
+    <audio src="/music/d.wav" id="d_aud" preload="auto"></audio>
+    <audio src="/music/e.wav" id="e_aud" preload="auto"></audio>
+    <audio src="/music/Eb.wav" id="Eb_aud" preload="auto"></audio>
+    <audio src="/music/f.wav" id="f_aud" preload="auto"></audio>
+    <audio src="/music/Fb.wav" id="Fb_aud" preload="auto"></audio>
+    <audio src="/music/g.wav" id="g_aud" preload="auto"></audio>
+    <audio src="/music/Gb.wav" id="Gb_aud" preload="auto"></audio>
+    <header>
+      <!-- <h2>This is the transition effect Tutorial</h2> -->
+      <h2 style="font-size: 30px">VIRTUAL PIANO</h2>
+      <h3>Click over the black and white keys to play the piano</h3>
+      <div class="box" id="box">Let's Play the Piano</div>
+      <audio src="LETS_GO.mp3" preload="auto" id="go"></audio>
+    </header>
+    <div class="container">
+      <div class="rbox">
+        <span style="font-size: 25px">&#9836;</span><br /><br /><br />
+        <p><span style="font-size: 16px">&#9898;</span></p>
+        <p><br /><br /><span style="font-size: 25px">&#9836;</span></p>
+      </div>
+      <div class="divbox" id="box-1">C</div>
+      <div class="divbox" id="box-2">D</div>
+      <div class="divbox" id="box-3">E</div>
+      <div class="divbox" id="box-4">G</div>
+      <div class="divbox" id="box-5">A</div>
+      <div class="divbox" id="box-6">B</div>
+      <div class="divbox" id="box-7">C</div>
+      <div class="divbox" id="box-8">D</div>
+      <div class="divbox" id="box-9">E</div>
+      <div class="divbox" id="box-10">F</div>
+      <div class="divbox" id="box-11">G</div>
+      <div class="divbox" id="box-12">A</div>
+      <div class="divbox" id="box-13">B</div>
+      <div class="divbox" id="box-14">C</div>
+      <div class="divbox" id="box-15">D</div>
+      <div class="divbox" id="box-16">E</div>
+      <div class="divbox" id="box-17">F</div>
+      <div class="divbox" id="box-18">G</div>
+      <div class="divbox" id="box-19">A</div>
+      <div class="divbox" id="box-20">B</div>
+      <div class="divbox" id="box-21">C</div>
+      <div class="divbox" id="box-22">D</div>
+      <div class="divbox" id="box-23">E</div>
+      <div class="divbox" id="box-24">F</div>
+      <div class="divbox" id="box-25">G</div>
+      <div class="divbox" id="box-26">A</div>
+      <div class="divbox" id="box-27">B</div>
+      <div class="divbox" id="box-28">C</div>
+      <div class="divbox" id="box-29">D</div>
+      <div class="divbox" id="box-30">E</div>
+      <div id="rbox1" class="rbox">
+        <p></p>
+        <br /><br /><br />
+        <p><span style="font-size: 16px">&#9898;</span></p>
+      </div>
+      <div class="rbox" id="rbox1">
+        <span style="font-size: 25px">&#9836;</span><br /><br /><br />
+        <p><span style="font-size: 16px">&#9898;</span></p>
+        <p><br /><br /><span style="font-size: 25px">&#9836;</span></p>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  </body>
+</html>

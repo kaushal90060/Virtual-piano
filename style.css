@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  font-family: "Patua One", cursive;
+  background: url(piano.jpg) no-repeat center center/cover;
+}
+
+header {
+  text-align: center;
+  border-radius: 10px 10px 20px 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: url(piano.jpg) no-repeat center center/cover;
+}
+
+.container {
+  height: 600px;
+  border-radius: 50px 50px 0px 0px;
+  background-color: #a0ccb3;
+  display: flex;
+  align-items: flex-end;
+  /*  This is the powerfull property which brings all the items to end of the container which depends on the height  */
+}
+
+.box {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px;
+  border: 1px solid rgb(179, 255, 0);
+  border-radius: 25px;
+  margin: auto;
+  margin-bottom: 10px;
+  display: block;
+  width: 175px;
+  height: 50px;
+  background-color: rgb(21, 255, 0);
+  /* transition: width 0.5s; */
+  transition: width 0.5s, height 0.2s;
+  color: white;
+  cursor: pointer;
+}
+
+.box:hover {
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 30px;
+}
+
+.divbox {
+  font-size: 20px;
+  border-radius: 10px 10px 0px 0px;
+  height: 200px;
+  width: 80px;
+  background-color: rgb(255, 249, 244);
+  margin: 2px;
+  transition: height 0.2s;
+  cursor: pointer;
+}
+
+.divbox:hover {
+  height: 550px;
+}
+
+#box-1 {
+  position: relative;
+  left: -118px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  transition-timing-function: linear;
+}
+
+#box-2 {
+  position: relative;
+  left: -118px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  transition-timing-function: ease;
+}
+
+#box-3 {
+  position: relative;
+  left: -118px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  transition-timing-function: ease-in;
+}
+
+#box-4 {
+  position: relative;
+  left: -118px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  transition-timing-function: ease-out;
+}
+
+#box-5 {
+  position: relative;
+  left: -118px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  transition-timing-function: ease-in-out;
+}
+
+#box-6,
+#box-8,
+#box-10,
+#box-12,
+#box-14,
+#box-16,
+#box-18,
+#box-20,
+#box-22,
+#box-24,
+#box-26,
+#box-28,
+#box-30 {
+  position: relative;
+  left: -118px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-style: bold;
+  transition-timing-function: ease-in-out;
+}
+
+#box-7,
+#box-9,
+#box-11,
+#box-13,
+#box-15,
+#box-17,
+#box-19,
+#box-21,
+#box-23,
+#box-25,
+#box-27,
+#box-29 {
+  position: relative;
+  left: -118px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-style: bold;
+  transition-timing-function: ease-in-out;
+}
+
+h2,
+h3 {
+  color: rgb(240 16 36);
+}
+
+.rbox {
+  padding: 8px;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  border: 2px solid #1fa6c5;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 6px 6px 6px 6px rgb(8 156 190);
+  top: -350px;
+  left: 33px;
+  background-color: rgb(0, 255, 13);
+  transition: width 2s, height 2s, transform, 5s;
+  /* Animation */
+  animation-name: anime;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+}
+
+@keyframes anime {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  0% {
+    background-color: rgb(236, 233, 40);
+  }
+  20% {
+    background-color: rgba(0, 238, 255, 0.664);
+  }
+  32% {
+    background-color: rgb(255, 0, 106);
+  }
+  50% {
+    background-color: rgb(0, 255, 0);
+  }
+  58% {
+    background-color: rgb(155, 12, 155);
+  }
+  70% {
+    background-color: rgb(147, 47, 219);
+  }
+  78% {
+    background-color: rgb(197, 172, 31);
+  }
+  100% {
+    background-color: rgb(168, 5, 5);
+  }
+}
+#rbox1 {
+  position: absolute;
+  top: 239px;
+  left: 1240px;
+  width: 204px;
+  height: 209px;
+  border-radius: 50%;
+}
